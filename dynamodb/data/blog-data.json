@@ -1,0 +1,82 @@
+{
+  "Item1": {
+    "ID": {
+      "S": "1"
+    },
+    "Image": {
+      "S": "/images/dinner.jpg"
+    },
+    "ImageText": {
+      "S": "Dinner"
+    },
+    "Title": {
+      "S": "Beautiful Dining Rooms"
+    },
+    "Subtitle": {
+      "S": "Furniture"
+    },
+    "Description": {
+      "S": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, asperiores impedit. Hic obcaecati nisi dolor architecto ullam suscipit exercitationem corrupti earum, delectus ab? Quos quae maxime eligendi nostrum obcaecati aliquam!"
+    }
+  },
+  "Item2": {
+    "ID": {
+      "S": "2"
+    },
+    "Image": {
+      "S": "/images/icecream.jpg"
+    },
+    "ImageText": {
+      "S": "Ice Cream"
+    },
+    "Title": {
+      "S": "Best Ice Cream Flavors"
+    },
+    "Subtitle": {
+      "S": "Food"
+    },
+    "Description": {
+      "S": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, asperiores impedit. Hic obcaecati nisi dolor architecto ullam suscipit exercitationem corrupti earum, delectus ab? Quos quae maxime eligendi nostrum obcaecati aliquam!"
+    }
+  },
+  "Item3": {
+    "ID": {
+      "S": "3"
+    },
+    "Image": {
+      "S": "/images/racecar.jpg"
+    },
+    "ImageText": {
+      "S": "Race Car"
+    },
+    "Title": {
+      "S": "Fastest Cars in the World"
+    },
+    "Subtitle": {
+      "S": "Sports"
+    },
+    "Description": {
+      "S": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, asperiores impedit. Hic obcaecati nisi dolor architecto ullam suscipit exercitationem corrupti earum, delectus ab? Quos quae maxime eligendi nostrum obcaecati aliquam!"
+    }
+  },
+  "Item4": {
+    "ID": {
+      "S": "4"
+    },
+    "Image": {
+      "S": "/images/robot.jpg"
+    },
+    "ImageText": {
+      "S": "Robot"
+    },
+    "Title": {
+      "S": "Robots of the Future"
+    },
+    "Subtitle": {
+      "S": "Technology"
+    },
+    "Description": {
+      "S": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, asperiores impedit. Hic obcaecati nisi dolor architecto ullam suscipit exercitationem corrupti earum, delectus ab? Quos quae maxime eligendi nostrum obcaecati aliquam!"
+    }
+  }
+}

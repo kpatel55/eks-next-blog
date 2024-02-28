@@ -1,0 +1,28 @@
+{
+  "Item1": {
+    "ID": {
+      "S": "1"
+    },
+    "FirstName": {
+      "S": "John"
+    },
+    "LastName": {
+      "S": "Doe"
+    },
+    "JobTitle": {
+      "S": "Job Title"
+    },
+    "CompanyName": {
+      "S": "Company Name"
+    },
+    "Image": {
+      "S": "/images/landing.jpg"
+    },
+    "ImageText": {
+      "S": "Langing Image"
+    },
+    "Description": {
+      "S": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, asperiores impedit. Hic obcaecati nisi dolor architecto ullam suscipit exercitationem corrupti earum, delectus ab? Quos quae maxime eligendi nostrum obcaecati aliquam!"
+    }
+  }
+}

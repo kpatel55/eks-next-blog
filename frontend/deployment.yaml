@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: next-react-blog
+  labels:
+    app: next-react-blog
+spec:
+  type: LoadBalancer
+  selector:
+    app: next-react-blog
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 80
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: next-react-blog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: next-react-blog
+  template:
+    metadata:
+      labels:
+        app: next-react-blog
+    spec:
+      containers:
+        - name: next-react-blog
+          image: kpatel55/next-react-blog:latest
