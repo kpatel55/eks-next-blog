@@ -27,6 +27,9 @@ resource "aws_dynamodb_table" "blog_tables" {
 output "tables_out" {
     value = {
         for v in aws_dynamodb_table.blog_tables :
-        v.name => v.hash_key
+        v.name => {
+            "hash_key": v.hash_key,
+            "arn": v.arn
+        }
     }
 }
