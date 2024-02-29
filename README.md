@@ -55,7 +55,7 @@ cd ../frontend
 kubectl apply -f deployment.yaml
 ```
 
-### Invocation
+### Navigate
 
 After successful deployment, you can find the url of the application by running:
 
