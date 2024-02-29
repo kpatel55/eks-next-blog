@@ -67,8 +67,8 @@ Copy/Paste the url under EXTERNAL-IP to a browser window for viewing the deploye
 
 ### Cleanup
 
-'''
+```
 eksctl delete cluster --name next-node-blog --region YOUR_REGION_NAME
 cd ../dynamodb
 terraform destroy
-'''
+```
