@@ -1,4 +1,4 @@
-# Amazon Bedrock Lambda Demo
+# Deploy Next.js Blog to EKS Demo
 
 A simple demo of deploying a full-stack blog application to EKS.
 Before you continue, be sure to install Terraform, kubectl, and eksctl,
